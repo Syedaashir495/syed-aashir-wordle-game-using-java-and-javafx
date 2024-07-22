@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordlejava.Controller">
+    <children>
+        <GridPane fx:id="wordGrid1" layoutX="27.0" layoutY="129.0" prefHeight="51.0" prefWidth="516.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="3">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="4">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+            </children>
+        </GridPane>
+        <Label fx:id="headingLabel" layoutX="232.0" layoutY="38.0" prefHeight="79.0" prefWidth="223.0" text="Wordle">
+            <font>
+                <Font size="64.0" />
+            </font>
+        </Label>
+        <GridPane fx:id="wordGrid2" disable="true" layoutX="27.0" layoutY="209.0" prefHeight="51.0" prefWidth="516.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="3">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="4">
+                    <font>
+                        <Font size="25.0" />
+                    </font></TextField>
+            </children>
+        </GridPane>
+        <Button fx:id="enterButton" layoutX="224.0" layoutY="557.0" mnemonicParsing="false" onAction="#onEnterClick" prefHeight="50.0" prefWidth="152.0" text="Enter">
+            <font>
+                <Font size="25.0" />
+            </font></Button>
+        <GridPane fx:id="wordGrid3" disable="true" layoutX="27.0" layoutY="273.0" prefHeight="51.0" prefWidth="516.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="3">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="4">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+            </children>
+        </GridPane>
+        <GridPane fx:id="wordGrid4" disable="true" layoutX="27.0" layoutY="341.0" prefHeight="51.0" prefWidth="516.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="3">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="4">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+            </children>
+        </GridPane>
+        <GridPane fx:id="wordGrid5" disable="true" layoutX="27.0" layoutY="408.0" prefHeight="51.0" prefWidth="516.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="3">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="4">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+            </children>
+        </GridPane>
+        <GridPane fx:id="wordGrid6" disable="true" layoutX="27.0" layoutY="470.0" prefHeight="51.0" prefWidth="516.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="3">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+                <TextField alignment="CENTER" prefHeight="50.0" prefWidth="104.0" GridPane.columnIndex="4">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </TextField>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>

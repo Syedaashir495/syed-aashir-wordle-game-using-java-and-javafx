@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    -fx-font-family: 'Bebas Neue', cursive;
+    -fx-font-weight: bold;
+}
+#anchorPane {
+    -fx-background-color: white;
+}
+
+#headingLabel {
+    -fx-font-size: 40px;
+}
+
+.text-field {
+    -fx-font-size: 25px;
+    -fx-background-color: -fx-background;
+    -fx-border-color: #000000;
+    /* -fx-text-box-border: black; */
+}
+
+.button {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #16c416, #32cd32)
+}
